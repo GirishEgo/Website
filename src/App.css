@@ -1,0 +1,18 @@
+a{
+    color: rgb(0, 95, 158);
+}
+.active{
+    color: rgb(0, 191, 255);
+}
+li span{
+        color: rgb(0, 95, 158);
+
+}
+li .active{
+      color: rgb(0, 191, 255);
+
+
+}
+body {
+  font-family: Arial, sans-serif;
+}

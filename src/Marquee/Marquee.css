@@ -1,0 +1,66 @@
+.marquee-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: linear-gradient(to right, #0a2a43, #003366); /* Dark blue gradient */
+  color: #d3d3d3; /* Light gray text */
+  padding: 12px 0;
+  overflow: hidden;
+  position: relative;
+  z-index: 55;
+}
+
+.update-label {
+  background: #ffcc0000; /* Yellow background for visibility */
+  color: #ffffff; /* Dark text for contrast */
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px 0 0 5px; /* Rounded left side */
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.marquee-container {
+  flex: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-left: 100px; /* Space for the label */
+}
+
+.marquee {
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 1.3rem;
+  font-weight: bold;
+  animation: marquee 20s linear infinite; /* Slower speed */
+}
+
+/* Marquee animation to scroll from left to right */
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/* Pause animation on hover */
+.marquee-container:hover .marquee {
+  animation-play-state: paused;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .marquee {
+    font-size: 1.1rem;
+    animation-duration: 25s; /* Even slower on smaller screens */
+  }
+  .update-label {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+}

@@ -1,0 +1,156 @@
+:root{
+  --aboutUsdarkBule:#00274d;
+  --lightblue:#ffffff;
+}
+.about_us {
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin: 50px;
+  position: relative; /* Ensure z-index works */
+  z-index: 3; /* Set z-index for all sections */
+  /* team section */
+  .team-subSection{
+    margin:20px;
+    p{
+     
+      background: rgba(62, 167, 247, 0.322);
+      padding: 20px;
+    }
+   
+  }
+  /* quality section */
+   ul{
+    margin-top: 20px;
+      margin-left:40px;
+      li{
+        padding: 20px;
+      }
+     }
+
+
+}
+
+.about_us h2{
+  font-size: 2rem;
+  /* color: #333;*/
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  text-align: left;
+  border-bottom: 1px solid white;
+}
+
+.about_us p {
+  font-size: 1rem;
+  padding: 10px;
+  line-height: 1.6;
+  /* color: #555; */
+}
+.about_us .subsection{
+  h3{
+    color: var(--aboutUsdarkBule);
+    padding: 20px 0px ;
+  }
+  p{
+    padding: 0px 15px;
+  }
+}
+
+button {
+  background-color: #ff0022;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  float: right;
+}
+
+button:hover {
+  background-color: #b30000d7;
+}
+
+
+/* Default styling for all sections */
+.sectionWrapper {
+  /* border:1px solid red; */
+  padding: 20px 60px;
+  color: rgb(255, 255, 255); /* Adjust text color for better contrast */
+}
+
+/* Odd sections: Dark blue background */
+.sectionWrapper:nth-child(odd) {
+  background-color:var(--aboutUsdarkBule); /* Dark blue */
+  .about_us{
+    background-color: var(--aboutUsdarkBule);
+  }
+  h2{
+    color: white;
+  }
+}
+
+/* Even sections: Light blue background */
+.sectionWrapper:nth-child(even) {
+  background-color:var(--lightblue); /* Light blue */
+  color: #000; /* Adjust text color for better readability */
+  .about_us{
+    background-color: var(--lightblue);
+    h2,h1{
+      border-bottom: 1px solid rgb(0, 0, 0);
+    }
+  }
+}
+
+
+
+/* Large screens (Desktops & Large Laptops) */
+@media (max-width: 1200px) {
+ /* section{
+  border:1px solid red;
+} */
+}
+
+/* Small Laptops & Large Tablets */
+@media (max-width: 992px) {
+/* section{
+  border:1px solid rgb(255, 196, 0);
+} */
+}
+
+/* Tablets & Small Laptops */
+@media (max-width: 768px) {
+/* section{
+  border:1px solid rgb(140, 255, 0);
+} */
+.sectionWrapper {
+    padding: 20px 30px;
+}
+.about_us {
+  margin: 50px 0;
+}
+}
+
+/* Large Mobile Phones (470px and below) */
+@media (max-width: 470px) {
+/* section{
+  border:1px solid rgb(0, 255, 208);
+} */
+     .sectionWrapper {
+        padding: 10px 10px;
+    }
+}
+
+/* Small Mobile Phones (400px and below) */
+@media (max-width: 400px) {
+/* section{
+  border:1px solid rgb(0, 8, 255);
+} */
+
+}
+
+/* Extra Small Mobile Phones (320px and below) */
+@media (max-width: 320px) {
+/* section{
+  border:1px solid rgb(255, 0, 255);
+} */
+}

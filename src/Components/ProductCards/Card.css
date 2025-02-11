@@ -1,0 +1,97 @@
+.card {
+  width: 300px;
+  height: auto;
+  border: 1px solid #ddd;
+  /* align-items: center; */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  /* Slight zoom-in effect */
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.card-logo-container,
+.card-product-img-container,
+.card-heading-container,
+.cardDiscContainer,
+.card-dropdown-container {
+  margin-bottom: 15px;
+}
+
+.card-logo {
+  width: 40%;
+
+}
+.card-product-img {
+  width: 100%;
+  mix-blend-mode: multiply;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  margin-top: -15px;
+  /* position: relative; */
+}
+
+.card-heading {
+  font-size: 1.5rem;
+  color: var(--title-color);
+  /* width: 80%; */
+  text-transform: capitalize;
+  /* margin: auto;; */
+  /* margin-bottom: 15px; */
+  text-align: center;
+}
+
+.card-dropdown {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #f9f9f9;
+}
+
+.card-discription {
+  margin-left: 10px;
+  font-size: 13px;
+}
+
+.readmorarrow {
+  position: relative;
+  padding-right: 40px;
+  /* Ensure space for the icon */
+}
+
+.cursor-icon {
+  position: absolute;
+  right:0 ;
+  top: -35px;
+  color: rgb(0 159 226);
+  stroke-width: 1px;
+  /* Reduce thickness */
+  font-size: 60px;
+  /* transform: translateY(-50%); */
+  transform: rotate(330deg);
+  fill: transparent;
+  /* Default */
+  transition: fill 0.3s ease-in-out;
+  /* Slow opacity transition */
+}
+
+.cursor-icon:hover {
+  fill: rgb(0 159 226);
+  /* Blue fill on hover */
+}
+  @media (max-width:400px) {
+.card{
+  width: 230px;
+}
+  }

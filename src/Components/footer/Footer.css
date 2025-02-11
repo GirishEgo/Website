@@ -1,0 +1,79 @@
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: var(--title-color);
+  color:white;
+  font-family: Arial, sans-serif;
+
+  /* margin-top: 100px; */
+}
+
+/* .footer-logo .logo {
+  /* margin-bottom: 10px; */
+    /* mix-blend-mode: multiply;
+   */
+
+
+.footer-tagline {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.footer-nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.footer-nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.footer-nav ul li a:hover {
+  color: #007bff;
+}
+
+.footer-address {
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+.footer-contact{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.contact-footerholder{
+  border-right: 1px solid white;
+  padding: 10px;
+
+}
+/* Ensure the last .contact-footerholder in .footer-contact does not have a border */
+.footer-contact > div:last-child .contact-footerholder {
+  border-right: none;
+}
+.footer-contact div {
+  /* margin: 5px 5px; */
+  /* padding: 10px; */
+  display: flex;
+
+
+}
+
+.phone-link, .whatsapp-link, .email-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.phone-link:hover, .whatsapp-link:hover, .email-link:hover {
+  color: red;
+}

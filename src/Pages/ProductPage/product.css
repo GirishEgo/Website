@@ -1,0 +1,295 @@
+:root {
+  --title-color: rgb(14, 51, 108);
+  --subTital-color: rgb(52, 174, 255);
+  --productHolder-bg: rgb(168, 209, 245);
+}
+
+.productContainer {
+  margin: 0px 80px;
+  padding: 0px;
+  background: var(--productHolder-bg);
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  /* Allows wrapping of child elements */
+}
+
+.productsHolder {
+  /* border: 1px solid green; */
+  margin: 0px 0px;
+  z-index: 1;
+  /* background-color: var(--productHolder-bg); */
+
+}
+
+/* .productsHolder:nth-child(even){
+  background-color: red;
+  direction:rtl;
+  .Product-info-key{
+    border-radius: 28px 0 0 28px;
+  }
+} */
+.Product-info-key {
+  margin: auto;
+  width: 80%;
+  background-color: white;
+  color: black;
+  padding: 16px;
+  border-radius: 8px;
+  /* Optional: Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Optional: Subtle shadow */
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+
+.productHeader {
+  width: 100%;
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-align: center;
+  }
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+
+  h1 {
+    color: var(--title-color)
+  }
+
+  h3 {
+   
+    color: var(--subTital-color);
+  }
+
+}
+
+.line {
+  width: 25%;
+  /* Adjust line width as needed */
+  height: 2px;
+  /* Adjust line thickness */
+  background-color: #ff0039;
+  /* Adjust line color */
+  margin: 5px 0;
+  /* Space between line and heading */
+}
+
+.imgAndFeaturesHolder {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+  position: relative;
+  /* display: inline-block; */
+}
+
+.fecturesbox {
+  /* display: none; */
+  position: absolute;
+  top: 60%;
+  /* Position below the image */
+  left: 20%;
+  transform: translateX(-50%);
+  width: auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: rgb(46, 44, 44);
+  border-radius: 8px;
+  /* text-align: left; */
+  font-size: 14px;
+  z-index: 10;
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+
+  h4 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  ul {
+    list-style: none;
+  }
+}
+
+.imgAndFeaturesHolder:hover .fecturesbox {
+  /* display: block; */
+  opacity: 1;
+  visibility: visible;
+}
+
+.Product-info-key img {
+  width: 60%;
+  aspect-ratio: 4/3;
+  object-fit:contain;
+  align-items: center;
+}
+
+.productDiscriptionHolder>* {
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.productDiscriptionHolder {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+      flex-direction: column;
+      width: 100%;
+
+  .decriptions {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+
+    .hand-icon {
+      font-size: 20px;
+      padding-right: 10px;
+    }
+  }
+
+  h4 {
+    color: var(--title-color);
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    list-style: none;
+  }
+}
+
+.working-testingDetailscontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.workingHolder,
+.testingContainer,
+.instalaationcontainer,
+.remarkContainer,
+.constrationContainer{
+  flex: 1; /* Make width dynamic */
+  height: fit-content;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 25px;
+  margin: 10px;
+  min-width: 40%; /* Minimum width */
+
+  ol {
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+
+  ul {
+    list-style: square;
+
+    li {
+      padding: 10px 0px;
+      margin: 0px 21px;
+    }
+  }
+}
+.otherImagesContainer{
+  img{
+  flex: 1; /* Make width dynamic */
+  height: fit-content;
+  min-width: 40%; /* Minimum width */
+  aspect-ratio: 0/0;
+  }
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* Large screens (Desktops & Large Laptops) */
+@media (max-width: 1200px) {
+  /* .Product-info-key{
+    background-color: red;
+  } */
+}
+
+/* Small Laptops & Large Tablets */
+@media (max-width: 992px) {
+ 
+ .productContainer{
+      margin: 0px 40px;
+ }
+ .otherImagesContainer {
+    img {
+        min-width: 50%;
+    }
+}
+}
+
+/* Tablets & Small Laptops */
+@media (max-width: 768px) {
+   /* .Product-info-key{
+    background-color: rgb(255, 251, 0);
+  } */
+  .productContainer{
+      margin: 0px 30px;
+ }
+  .productDiscriptionHolder>*{
+    padding: 0;
+  }
+   .otherImagesContainer {
+    img {
+        min-width: 60%;
+    }
+}
+}
+
+/* Large Mobile Phones (470px and below) */
+@media (max-width: 470px) {
+
+  .productDiscriptionHolder>*{
+    padding: 0;
+  }
+   .productContainer {
+        margin: 0px 15px;
+    }
+    .otherImagesContainer {
+    img {
+        flex: 1;
+        height: fit-content;
+        min-width: 80%;
+    }
+}
+}
+
+/* Small Mobile Phones (400px and below) */
+@media (max-width: 400px) {
+   /* .Product-info-key{
+    background-color: rgb(0, 255, 179);
+  } */
+  .productContainer {
+        margin: 0px 10px;
+    }
+}
+
+/* Extra Small Mobile Phones (320px and below) */
+@media (max-width: 320px) {
+  /* .Product-info-key{
+    background-color: rgb(0, 38, 255);
+  } */
+  .productContainer {
+        margin: 0px 5px;
+    }
+    
+}

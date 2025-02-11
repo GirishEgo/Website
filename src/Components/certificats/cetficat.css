@@ -1,0 +1,57 @@
+.cartificate-Container {
+width: 90%;
+margin: auto;
+  padding: 20px;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        color: rgb(24, 24, 106);
+    }
+    .line{
+        background: rgb(0, 173, 253);
+    }
+}
+
+.certoficat_holder {
+    margin-top: 30px;
+  display: flex;
+  background: linear-gradient(185deg, rgb(209, 240, 252), rgb(232, 232, 255));
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.certfict_imgsvontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Certificat-img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.Certificat-img div {
+ 
+  text-align: center;
+  width:auto; /* Adjust as needed */
+}
+
+.Certificat-img img {
+  width: 100%;
+  height: 150px; /* Keeps all images the same height */
+  object-fit: contain;
+  mix-blend-mode: multiply;
+  border-radius: 5px;
+}
+
+@media (max-width:375px) {
+    .Certificat-img div {
+    width: 40%;
+}
+}
