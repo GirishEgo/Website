@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet-async";
 import { useLocation } from "react-router-dom";
 import defaultImage from "/catalogs/GEC New Catalog 04 02 2025AA-pages-1.jpg"; // Fallback image
-import defaultLogo from "../../assets/images/Logo-main.jpg"; // Fallback logo
+import defaultLogo from "../../assets/Images/Logo-main.jpg"; // Fallback logo
 
 
 
