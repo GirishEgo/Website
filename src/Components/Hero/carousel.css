@@ -10,6 +10,7 @@
 .image-container {
   width: 100%;
   height: 100%;
+  position: relative;
 }
 
 .carousel-image {
@@ -17,25 +18,105 @@
   height: 100%;
   object-fit: cover;
 }
-
-.carousel-button {
+.text-overlay {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  /* z-index: -1; */
-  font-size: 16px;
+  width: 50%;
+  font-size: 24px; /* Average size */
+  font-weight: bold;
+  text-align: center;
+  /* padding: 10px 20px; */
   border-radius: 5px;
+  text-shadow: 3px 3px 6px rgba(121, 121, 121, 0.8); /* Stronger text shadow */
 }
 
-.prev-button {
-  left: 10px;
+/* Text Positions */
+@keyframes slideFromright {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px); /* Start from the left */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0); /* Move to its normal position */
+  }
 }
 
-.next-button {
-  right: 10px;
+.top-left {
+  position: absolute;
+  top: 20px;
+  /* width: 50%; */
+  left: 130px;
+  color: rgb(23, 39, 177); /* Dark blue for contrast */
+  text-align: center;
+   background: rgba(255, 255, 255, 0.4); /* Slight white background */
+  animation: slideFromright 1s ease-in-out;
+  
+}
+
+.top-right {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  color: rgb(2, 15, 120); /* Deep blue for clarity */
+  text-align: center;
+  background: rgba(255, 255, 255, 0.4); /* Slight white background */
+  animation: slideFromLeft 1s ease-in-out;
+}
+@keyframes slideFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(30px); /* Start from the left */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0); /* Move to normal position */
+  }
+}
+
+
+.bottom-center {
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgb(255, 255, 255); /* White for best contrast on dark areas */
+  animation: floatUp 1s ease-in-out;
+}
+@keyframes floatUp {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, 20px); /* Start slightly below */
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, 0); /* Move to normal position */
+  }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .text-overlay {
+    width: 80%; /* Increase width for smaller screens */
+    font-size: 28px; /* Reduce text size */
+  }
+
+  .top-left {
+    top: 15px;
+    left: 20px; /* Adjust position slightly */
+  }
+
+  .top-right {
+    top: 15px;
+    right: 20px; /* Adjust position slightly */
+  }
+
+  .bottom-center {
+    bottom: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-overlay {
+    font-size: 16px; /* Make text smaller for mobile */
+  }
+
 }
