@@ -31,7 +31,7 @@ const SEO = ({
   url, // Explicitly passed for validation
 }) => {
   const location = useLocation();
-  const validatedUrl = url ? url : `http://localhost:5173${location.pathname}`;
+  const validatedUrl = url ? url : `http://girishego.com${location.pathname}`;
   const validatedImage = image || defaultImage;
   const validatedLogo = defaultLogo;
 

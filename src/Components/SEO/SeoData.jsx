@@ -11,7 +11,7 @@ const seoData = [
         keywords:
           "space heaters, industrial heaters, panel board heaters, switchgear heating, condensation prevention, electronic panel heating, GIRISHEGO heaters",
         siteName: "Girish Ego Controls",
-        url: "https://yourwebsite.com/products/space-heaters",
+        url: "https://girishego.com/products/space-heaters",
         product: {
           name: "SPACE HEATERS (Perforated Body)",
           description:
@@ -22,11 +22,11 @@ const seoData = [
           availability: "InStock",
         },
         breadcrumb: [
-          { name: "Home", url: "https://yourwebsite.com/" },
-          { name: "Products", url: "https://yourwebsite.com/products" },
+          { name: "Home", url: "https://girishego.com/" },
+          { name: "Products", url: "https://girishego.com/products" },
           {
             name: "Space Heaters",
-            url: "https://yourwebsite.com/products/space-heaters",
+            url: "https://girishego.com/products/space-heaters",
           },
         ],
         faqs: [
@@ -70,7 +70,7 @@ const seoData = [
         keywords:
           "aluminium space heaters, industrial heaters, fast heat dissipation, electronic panel heating, switchgear heating, condensation prevention, GIRISHEGO heaters",
         siteName: "Girish Ego Controls",
-        url: "https://yourwebsite.com/products/aluminium-space-heaters",
+        url: "https://girishego.com/products/aluminium-space-heaters",
         product: {
           name: "Aluminium Space Heaters",
           description:
@@ -81,11 +81,11 @@ const seoData = [
           availability: "InStock",
         },
         breadcrumb: [
-          { name: "Home", url: "https://yourwebsite.com/" },
-          { name: "Products", url: "https://yourwebsite.com/products" },
+          { name: "Home", url: "https://girishego.com/" },
+          { name: "Products", url: "https://girishego.com/products" },
           {
             name: "Aluminium Space Heaters",
-            url: "https://yourwebsite.com/products/aluminium-space-heaters",
+            url: "https://girishego.com/products/aluminium-space-heaters",
           },
         ],
         faqs: [
@@ -124,7 +124,7 @@ const seoData = [
         keywords:
           "box type space heaters, industrial heaters, heat dissipation, electronic panel heating, switchgear heating, condensation prevention, GIRISHEGO heaters",
         siteName: "Girish Ego Controls",
-        url: "https://yourwebsite.com/products/box-space-heaters",
+        url: "https://girishego.com/products/box-space-heaters",
         product: {
           name: "BOX TYPE SPACE HEATERS",
           description:
@@ -135,11 +135,11 @@ const seoData = [
           availability: "InStock",
         },
         breadcrumb: [
-          { name: "Home", url: "https://yourwebsite.com/" },
-          { name: "Products", url: "https://yourwebsite.com/products" },
+          { name: "Home", url: "https://girishego.com/" },
+          { name: "Products", url: "https://girishego.com/products" },
           {
             name: "Box Type Space Heaters",
-            url: "https://yourwebsite.com/products/box-space-heaters",
+            url: "https://girishego.com/products/box-space-heaters",
           },
         ],
         faqs: [
@@ -179,7 +179,7 @@ const seoData = [
         keywords:
           "PTC enclosure heaters, industrial heaters, panel board heaters, switchgear heating, condensation prevention, energy-saving heaters, GIRISHEGO heaters",
         siteName: "Girish Ego Controls",
-        url: "https://yourwebsite.com/products/ptc-enclosure-heaters",
+        url: "https://girishego.com/products/ptc-enclosure-heaters",
         product: {
           name: "PTC Enclosure Heaters",
           description:
@@ -190,11 +190,11 @@ const seoData = [
           availability: "InStock",
         },
         breadcrumb: [
-          { name: "Home", url: "https://yourwebsite.com/" },
-          { name: "Products", url: "https://yourwebsite.com/products" },
+          { name: "Home", url: "https://girishego.com/" },
+          { name: "Products", url: "https://girishego.com/products" },
           {
             name: "PTC Enclosure Heaters",
-            url: "https://yourwebsite.com/products/ptc-enclosure-heaters",
+            url: "https://girishego.com/products/ptc-enclosure-heaters",
           },
         ],
         faqs: [
@@ -233,7 +233,7 @@ const seoData = [
         keywords:
           "Combi space heaters, industrial heaters, panel board heaters, built-in thermostat heaters, corrosion prevention, switchgear heating, GIRISHEGO heaters",
         siteName: "Girish Ego Controls",
-        url: "https://yourwebsite.com/products/combi-space-heaters",
+        url: "https://girishego.com/products/combi-space-heaters",
         product: {
           name: "COMBI-SPACE HEATERS",
           description:
@@ -244,11 +244,11 @@ const seoData = [
           availability: "InStock",
         },
         breadcrumb: [
-          { name: "Home", url: "https://yourwebsite.com/" },
-          { name: "Products", url: "https://yourwebsite.com/products" },
+          { name: "Home", url: "https://girishego.com/" },
+          { name: "Products", url: "https://girishego.com/products" },
           {
             name: "COMBI-SPACE HEATERS",
-            url: "https://yourwebsite.com/products/combi-space-heaters",
+            url: "https://girishego.com/products/combi-space-heaters",
           },
         ],
         faqs: [
@@ -288,7 +288,7 @@ const seoData = [
         keywords:
           "Heavy duty space heater, slim space heater, continuous use heater, switchgear heating, condensation prevention, industrial heaters, GIRISHEGO heaters",
         siteName: "Girish Ego Controls",
-        url: "https://yourwebsite.com/products/heavy-duty-slim-space-heater",
+        url: "https://girishego.com/products/heavy-duty-slim-space-heater",
         product: {
           name: "Heavy Duty Slim Space Heater",
           description:
@@ -299,11 +299,11 @@ const seoData = [
           availability: "InStock",
         },
         breadcrumb: [
-          { name: "Home", url: "https://yourwebsite.com/" },
-          { name: "Products", url: "https://yourwebsite.com/products" },
+          { name: "Home", url: "https://girishego.com/" },
+          { name: "Products", url: "https://girishego.com/products" },
           {
             name: "Heavy Duty Slim Space Heater",
-            url: "https://yourwebsite.com/products/heavy-duty-slim-space-heater",
+            url: "https://girishego.com/products/heavy-duty-slim-space-heater",
           },
         ],
         faqs: [
@@ -342,7 +342,7 @@ const seoData = [
         keywords:
           "Space-saving fan heaters, industrial fan heaters, condensation prevention, panel heating, switchgear heating, enclosure heaters, GIRISHEGO heaters",
         siteName: "Girish Ego Controls",
-        url: "https://yourwebsite.com/products/space-saving-fan-heaters",
+        url: "https://girishego.com/products/space-saving-fan-heaters",
         product: {
           name: "Space-Saving Fan Heaters",
           description:
@@ -353,11 +353,11 @@ const seoData = [
           availability: "InStock",
         },
         breadcrumb: [
-          { name: "Home", url: "https://yourwebsite.com/" },
-          { name: "Products", url: "https://yourwebsite.com/products" },
+          { name: "Home", url: "https://girishego.com/" },
+          { name: "Products", url: "https://girishego.com/products" },
           {
             name: "Space-Saving Fan Heaters",
-            url: "https://yourwebsite.com/products/space-saving-fan-heaters",
+            url: "https://girishego.com/products/space-saving-fan-heaters",
           },
         ],
         faqs: [
@@ -396,7 +396,7 @@ const seoData = [
         keywords:
           "Hazardous area heater, explosion-proof heater, industrial convection heater, hazardous environment heating, switchgear heater, GIRISHEGO heaters",
         siteName: "Girish Ego Controls",
-        url: "https://yourwebsite.com/products/hazardous-area-heater",
+        url: "https://girishego.com/products/hazardous-area-heater",
         product: {
           name: "Hazardous Area Heater",
           description:
@@ -407,11 +407,11 @@ const seoData = [
           availability: "InStock",
         },
         breadcrumb: [
-          { name: "Home", url: "https://yourwebsite.com/" },
-          { name: "Products", url: "https://yourwebsite.com/products" },
+          { name: "Home", url: "https://girishego.com/" },
+          { name: "Products", url: "https://girishego.com/products" },
           {
             name: "Hazardous Area Heater",
-            url: "https://yourwebsite.com/products/hazardous-area-heater",
+            url: "https://girishego.com/products/hazardous-area-heater",
           },
         ],
         faqs: [
@@ -452,7 +452,7 @@ const seoData = [
         keywords:
           "Compact fan heater, high-performance enclosure heater, condensation prevention, frost protection, industrial heating, GIRISHEGO heaters",
         siteName: "Girish Ego Controls",
-        url: "https://yourwebsite.com/products/compact-high-performance-fan-heater",
+        url: "https://girishego.com/products/compact-high-performance-fan-heater",
         product: {
           name: "Compact High-Performance Fan Heater",
           description:
@@ -463,11 +463,11 @@ const seoData = [
           availability: "InStock",
         },
         breadcrumb: [
-          { name: "Home", url: "https://yourwebsite.com/" },
-          { name: "Products", url: "https://yourwebsite.com/products" },
+          { name: "Home", url: "https://girishego.com/" },
+          { name: "Products", url: "https://girishego.com/products" },
           {
             name: "Compact High-Performance Fan Heater",
-            url: "https://yourwebsite.com/products/compact-high-performance-fan-heater",
+            url: "https://girishego.com/products/compact-high-performance-fan-heater",
           },
         ],
         faqs: [
@@ -509,7 +509,7 @@ const seoData = [
         keywords:
           "Small semiconductor heater, compact enclosure heater, condensation prevention, camera housing heater, energy-efficient heating, GIRISHEGO heaters",
         siteName: "Girish Ego Controls",
-        url: "https://yourwebsite.com/products/small-semiconductor-heater",
+        url: "https://girishego.com/products/small-semiconductor-heater",
         product: {
           name: "Small Semiconductor Heater",
           description:
@@ -520,11 +520,11 @@ const seoData = [
           availability: "InStock",
         },
         breadcrumb: [
-          { name: "Home", url: "https://yourwebsite.com/" },
-          { name: "Products", url: "https://yourwebsite.com/products" },
+          { name: "Home", url: "https://girishego.com/" },
+          { name: "Products", url: "https://girishego.com/products" },
           {
             name: "Small Semiconductor Heater",
-            url: "https://yourwebsite.com/products/small-semiconductor-heater",
+            url: "https://girishego.com/products/small-semiconductor-heater",
           },
         ],
         faqs: [
@@ -565,7 +565,7 @@ const seoData = [
         keywords:
           "DLX thermostat, panel board thermostat, switchgear temperature control, industrial thermostat, LT & HT switchgear, GIRISHEGO thermostat",
         siteName: "Girish Ego Controls",
-        url: "https://yourwebsite.com/products/dlx-thermostat",
+        url: "https://girishego.com/products/dlx-thermostat",
         product: {
           name: "'DLX' Thermostat",
           description:
@@ -576,11 +576,11 @@ const seoData = [
           availability: "InStock",
         },
         breadcrumb: [
-          { name: "Home", url: "https://yourwebsite.com/" },
-          { name: "Products", url: "https://yourwebsite.com/products" },
+          { name: "Home", url: "https://girishego.com/" },
+          { name: "Products", url: "https://girishego.com/products" },
           {
             name: "'DLX' Thermostat",
-            url: "https://yourwebsite.com/products/dlx-thermostat",
+            url: "https://girishego.com/products/dlx-thermostat",
           },
         ],
         faqs: [
@@ -620,7 +620,7 @@ const seoData = [
         keywords:
           "round thermostat, panel board thermostat, switchgear thermostat, industrial thermostat, temperature control thermostat, GIRISHEGO thermostat, space heater thermostat",
         siteName: "Girish Ego Controls",
-        url: "https://yourwebsite.com/products/round-thermostat",
+        url: "https://girishego.com/products/round-thermostat",
         product: {
           name: "Round Thermostat - GIRISHEGO",
           description:
@@ -631,11 +631,11 @@ const seoData = [
           availability: "InStock",
         },
         breadcrumb: [
-          { name: "Home", url: "https://yourwebsite.com/" },
-          { name: "Products", url: "https://yourwebsite.com/products" },
+          { name: "Home", url: "https://girishego.com/" },
+          { name: "Products", url: "https://girishego.com/products" },
           {
             name: "Round Thermostat",
-            url: "https://yourwebsite.com/products/round-thermostat",
+            url: "https://girishego.com/products/round-thermostat",
           },
         ],
         faqs: [
@@ -680,7 +680,7 @@ const seoData = [
         keywords:
           "stem thermostat, panel board thermostat, switchgear thermostat, industrial thermostat, heating system thermostat, temperature control thermostat, GIRISHEGO thermostat",
         siteName: "Girish Ego Controls",
-        url: "https://yourwebsite.com/products/stem-thermostat",
+        url: "https://girishego.com/products/stem-thermostat",
         product: {
           name: "Stem Thermostat - GIRISHEGO",
           description:
@@ -691,11 +691,11 @@ const seoData = [
           availability: "InStock",
         },
         breadcrumb: [
-          { name: "Home", url: "https://yourwebsite.com/" },
-          { name: "Products", url: "https://yourwebsite.com/products" },
+          { name: "Home", url: "https://girishego.com/" },
+          { name: "Products", url: "https://girishego.com/products" },
           {
             name: "Stem Thermostat",
-            url: "https://yourwebsite.com/products/stem-thermostat",
+            url: "https://girishego.com/products/stem-thermostat",
           },
         ],
         faqs: [
@@ -740,7 +740,7 @@ const seoData = [
         keywords:
           "enclosure thermostat, KSTO-011, KSTS-011, panel board thermostat, LT HT switchgear thermostat, temperature control thermostat, DIN rail thermostat",
         siteName: "Girish Ego Controls",
-        url: "https://yourwebsite.com/products/enclosure-thermostat",
+        url: "https://girishego.com/products/enclosure-thermostat",
         product: {
           name: "Enclosure Thermostat - KSTO-011/KSTS-011",
           description:
@@ -751,11 +751,11 @@ const seoData = [
           availability: "InStock",
         },
         breadcrumb: [
-          { name: "Home", url: "https://yourwebsite.com/" },
-          { name: "Products", url: "https://yourwebsite.com/products" },
+          { name: "Home", url: "https://girishego.com/" },
+          { name: "Products", url: "https://girishego.com/products" },
           {
             name: "Enclosure Thermostat",
-            url: "https://yourwebsite.com/products/enclosure-thermostat",
+            url: "https://girishego.com/products/enclosure-thermostat",
           },
         ],
         faqs: [
@@ -803,7 +803,7 @@ const seoData = [
         keywords:
           "dual thermostat, ZSR-011, heating and cooling control, independent thermostats, NC and NO thermostats, DIN rail thermostat, industrial temperature control",
         siteName: "Girish Ego Controls",
-        url: "https://yourwebsite.com/products/dual-thermostat",
+        url: "https://girishego.com/products/dual-thermostat",
         product: {
           name: "Dual Thermostat - ZSR-011",
           description:
@@ -814,11 +814,11 @@ const seoData = [
           availability: "InStock",
         },
         breadcrumb: [
-          { name: "Home", url: "https://yourwebsite.com/" },
-          { name: "Products", url: "https://yourwebsite.com/products" },
+          { name: "Home", url: "https://girishego.com/" },
+          { name: "Products", url: "https://girishego.com/products" },
           {
             name: "Dual Thermostat",
-            url: "https://yourwebsite.com/products/dual-thermostat",
+            url: "https://girishego.com/products/dual-thermostat",
           },
         ],
         faqs: [
@@ -865,7 +865,7 @@ const seoData = [
         keywords:
           "mechanical hygrostat, MSFR-012, humidity control, enclosure humidity regulator, condensation prevention, industrial hygrostat, DIN rail mountable hygrostat",
         siteName: "Girish Ego Controls",
-        url: "https://yourwebsite.com/products/mechanical-hygrostat",
+        url: "https://girishego.com/products/mechanical-hygrostat",
         product: {
           name: "Mechanical Hygrostat",
           description:
@@ -876,11 +876,11 @@ const seoData = [
           availability: "InStock",
         },
         breadcrumb: [
-          { name: "Home", url: "https://yourwebsite.com/" },
-          { name: "Products", url: "https://yourwebsite.com/products" },
+          { name: "Home", url: "https://girishego.com/" },
+          { name: "Products", url: "https://girishego.com/products" },
           {
             name: "Mechanical Hygrostat",
-            url: "https://yourwebsite.com/products/mechanical-hygrostat",
+            url: "https://girishego.com/products/mechanical-hygrostat",
           },
         ],
         faqs: [
@@ -928,7 +928,7 @@ const seoData = [
         keywords:
           "electronic hygrostat, ESFR-012, humidity control, enclosure humidity regulator, condensation prevention, industrial hygrostat, temperature-compensated hygrostat",
         siteName: "Girish Ego Controls",
-        url: "https://yourwebsite.com/products/electronic-hygrostat",
+        url: "https://girishego.com/products/electronic-hygrostat",
         product: {
           name: "Electronic Hygrostat",
           description:
@@ -939,11 +939,11 @@ const seoData = [
           availability: "InStock",
         },
         breadcrumb: [
-          { name: "Home", url: "https://yourwebsite.com/" },
-          { name: "Products", url: "https://yourwebsite.com/products" },
+          { name: "Home", url: "https://girishego.com/" },
+          { name: "Products", url: "https://girishego.com/products" },
           {
             name: "Electronic Hygrostat",
-            url: "https://yourwebsite.com/products/electronic-hygrostat",
+            url: "https://girishego.com/products/electronic-hygrostat",
           },
         ],
         faqs: [
@@ -991,7 +991,7 @@ const seoData = [
         keywords:
           "electronic hygrotherm, ESTF-012, temperature and humidity control, industrial hygrostat, DIN rail thermostat, electronic climate control",
         siteName: "Girish Ego Controls",
-        url: "https://yourwebsite.com/products/electronic-hygrotherm",
+        url: "https://girishego.com/products/electronic-hygrotherm",
         product: {
           name: "Electronic Hygrotherm",
           description:
@@ -1002,11 +1002,11 @@ const seoData = [
           availability: "InStock",
         },
         breadcrumb: [
-          { name: "Home", url: "https://yourwebsite.com/" },
-          { name: "Products", url: "https://yourwebsite.com/products" },
+          { name: "Home", url: "https://girishego.com/" },
+          { name: "Products", url: "https://girishego.com/products" },
           {
             name: "Electronic Hygrotherm",
-            url: "https://yourwebsite.com/products/electronic-hygrotherm",
+            url: "https://girishego.com/products/electronic-hygrotherm",
           },
         ],
         faqs: [
@@ -1051,7 +1051,7 @@ const seoData = [
         keywords:
           "electronic DC thermostat, EST-011, 24V DC thermostat, low hysteresis thermostat, temperature control, DIN rail mounted thermostat, industrial thermostat",
         siteName: "Girish Ego Controls",
-        url: "https://yourwebsite.com/products/electronic-dc-thermostat",
+        url: "https://girishego.com/products/electronic-dc-thermostat",
         product: {
           name: "Electronic DC Thermostat",
           description:
@@ -1062,11 +1062,11 @@ const seoData = [
           availability: "InStock",
         },
         breadcrumb: [
-          { name: "Home", url: "https://yourwebsite.com/" },
-          { name: "Products", url: "https://yourwebsite.com/products" },
+          { name: "Home", url: "https://girishego.com/" },
+          { name: "Products", url: "https://girishego.com/products" },
           {
             name: "Electronic DC Thermostat",
-            url: "https://yourwebsite.com/products/electronic-dc-thermostat",
+            url: "https://girishego.com/products/electronic-dc-thermostat",
           },
         ],
         faqs: [
@@ -1114,7 +1114,7 @@ const seoData = [
         keywords:
           "electronic thermostat, ESTR-011, industrial thermostat, temperature controller, DIN rail thermostat, heater control thermostat",
         siteName: "Girish Ego Controls",
-        url: "https://yourwebsite.com/products/electronic-thermostat",
+        url: "https://girishego.com/products/electronic-thermostat",
         product: {
           name: "Electronic Thermostat",
           description:
@@ -1125,11 +1125,11 @@ const seoData = [
           availability: "InStock",
         },
         breadcrumb: [
-          { name: "Home", url: "https://yourwebsite.com/" },
-          { name: "Products", url: "https://yourwebsite.com/products" },
+          { name: "Home", url: "https://girishego.com/" },
+          { name: "Products", url: "https://girishego.com/products" },
           {
             name: "Electronic Thermostat",
-            url: "https://yourwebsite.com/products/electronic-thermostat",
+            url: "https://girishego.com/products/electronic-thermostat",
           },
         ],
         faqs: [
@@ -1173,7 +1173,7 @@ const seoData = [
         keywords:
           "hazardous area thermostat, explosion-proof thermostat, SREX-011, industrial thermostat, temperature control, hazardous environment heating",
         siteName: "Girish Ego Controls",
-        url: "https://yourwebsite.com/products/hazardous-area-thermostat",
+        url: "https://girishego.com/products/hazardous-area-thermostat",
         product: {
           name: "Hazardous Area Thermostat",
           description:
@@ -1184,11 +1184,11 @@ const seoData = [
           availability: "InStock",
         },
         breadcrumb: [
-          { name: "Home", url: "https://yourwebsite.com/" },
-          { name: "Products", url: "https://yourwebsite.com/products" },
+          { name: "Home", url: "https://girishego.com/" },
+          { name: "Products", url: "https://girishego.com/products" },
           {
             name: "Hazardous Area Thermostat",
-            url: "https://yourwebsite.com/products/hazardous-area-thermostat",
+            url: "https://girishego.com/products/hazardous-area-thermostat",
           },
         ],
         faqs: [
@@ -1233,7 +1233,7 @@ const seoData = [
         keywords:
           "mechanical thermostat, tamper-proof thermostat, SFTO-011, SFTS-011, temperature control, industrial thermostat",
         siteName: "Girish Ego Controls",
-        url: "https://yourwebsite.com/products/tp-m-thermostat",
+        url: "https://girishego.com/products/tp-m-thermostat",
         product: {
           name: "Temper-Proof Mechanical Thermostat",
           description:
@@ -1244,11 +1244,11 @@ const seoData = [
           availability: "InStock",
         },
         breadcrumb: [
-          { name: "Home", url: "https://yourwebsite.com/" },
-          { name: "Products", url: "https://yourwebsite.com/products" },
+          { name: "Home", url: "https://girishego.com/" },
+          { name: "Products", url: "https://girishego.com/products" },
           {
             name: "Temper-Proof Mechanical Thermostat",
-            url: "https://yourwebsite.com/products/tp-m-thermostat",
+            url: "https://girishego.com/products/tp-m-thermostat",
           },
         ],
         faqs: [
@@ -1293,7 +1293,7 @@ const seoData = [
         keywords:
           "dual thermostat, NO-NC thermostat, SFTD-011, temperature control, tamper-proof thermostat, industrial thermostat",
         siteName: "Girish Ego Controls",
-        url: "https://yourwebsite.com/products/tp-dual-no-nc-thermostat",
+        url: "https://girishego.com/products/tp-dual-no-nc-thermostat",
         product: {
           name: "Temper-Proof Dual NO-NC Thermostat",
           description:
@@ -1304,11 +1304,11 @@ const seoData = [
           availability: "InStock",
         },
         breadcrumb: [
-          { name: "Home", url: "https://yourwebsite.com/" },
-          { name: "Products", url: "https://yourwebsite.com/products" },
+          { name: "Home", url: "https://girishego.com/" },
+          { name: "Products", url: "https://girishego.com/products" },
           {
             name: "Temper-Proof Dual NO-NC Thermostat",
-            url: "https://yourwebsite.com/products/tp-dual-no-nc-thermostat",
+            url: "https://girishego.com/products/tp-dual-no-nc-thermostat",
           },
         ],
         faqs: [
@@ -1352,7 +1352,7 @@ const seoData = [
         keywords:
           "electronic hygrostat, SKR-3118, humidity control, temperature regulation, industrial enclosures, anti-condensation hygrostat",
         siteName: "Girish Ego Controls",
-        url: "https://yourwebsite.com/products/electronic-hygrostat-skr-3118",
+        url: "https://girishego.com/products/electronic-hygrostat-skr-3118",
         product: {
           name: "Electronic Hygrostat SKR-3118",
           description:
@@ -1363,11 +1363,11 @@ const seoData = [
           availability: "InStock",
         },
         breadcrumb: [
-          { name: "Home", url: "https://yourwebsite.com/" },
-          { name: "Products", url: "https://yourwebsite.com/products" },
+          { name: "Home", url: "https://girishego.com/" },
+          { name: "Products", url: "https://girishego.com/products" },
           {
             name: "Electronic Hygrostat SKR-3118",
-            url: "https://yourwebsite.com/products/electronic-hygrostat-skr-3118",
+            url: "https://girishego.com/products/electronic-hygrostat-skr-3118",
           },
         ],
         faqs: [
@@ -1412,7 +1412,7 @@ const seoData = [
         keywords:
           "hazardous area thermostat, SCRex-011, explosion-proof thermostat, industrial temperature control, thermostat for hazardous locations",
         siteName: "Girish Ego Controls",
-        url: "https://yourwebsite.com/products/hazardous-area-thermostat",
+        url: "https://girishego.com/products/hazardous-area-thermostat",
         product: {
           name: "Hazardous Area Thermostat",
           description:
@@ -1423,11 +1423,11 @@ const seoData = [
           availability: "InStock",
         },
         breadcrumb: [
-          { name: "Home", url: "https://yourwebsite.com/" },
-          { name: "Products", url: "https://yourwebsite.com/products" },
+          { name: "Home", url: "https://girishego.com/" },
+          { name: "Products", url: "https://girishego.com/products" },
           {
             name: "Hazardous Area Thermostat",
-            url: "https://yourwebsite.com/products/hazardous-area-thermostat",
+            url: "https://girishego.com/products/hazardous-area-thermostat",
           },
         ],
         faqs: [
@@ -1466,7 +1466,7 @@ const seoData = [
         keywords:
           "pressure compensation device, waterproof enclosure plug, SDA-084, SDA-284, IP66 protection plug, enclosure pressure regulation",
         siteName: "Girish Ego Controls",
-        url: "https://yourwebsite.com/products/pressure-compensation-device",
+        url: "https://girishego.com/products/pressure-compensation-device",
         product: {
           name: "Pressure Compensation Device",
           description:
@@ -1477,11 +1477,11 @@ const seoData = [
           availability: "InStock",
         },
         breadcrumb: [
-          { name: "Home", url: "https://yourwebsite.com/" },
-          { name: "Products", url: "https://yourwebsite.com/products" },
+          { name: "Home", url: "https://girishego.com/" },
+          { name: "Products", url: "https://girishego.com/products" },
           {
             name: "Pressure Compensation Device",
-            url: "https://yourwebsite.com/products/pressure-compensation-device",
+            url: "https://girishego.com/products/pressure-compensation-device",
           },
         ],
         faqs: [
@@ -1521,7 +1521,7 @@ const seoData = [
         keywords:
           "document pocket for enclosures, enclosure accessories, ABS document holder, wiring diagram pocket, cabinet document storage",
         siteName: "Girish Ego Controls",
-        url: "https://yourwebsite.com/products/document-pocket-for-enclosure",
+        url: "https://girishego.com/products/document-pocket-for-enclosure",
         product: {
           name: "Document Pocket for Enclosure",
           description:
@@ -1532,11 +1532,11 @@ const seoData = [
           availability: "InStock",
         },
         breadcrumb: [
-          { name: "Home", url: "https://yourwebsite.com/" },
-          { name: "Products", url: "https://yourwebsite.com/products" },
+          { name: "Home", url: "https://girishego.com/" },
+          { name: "Products", url: "https://girishego.com/products" },
           {
             name: "Document Pocket for Enclosure",
-            url: "https://yourwebsite.com/products/document-pocket-for-enclosure",
+            url: "https://girishego.com/products/document-pocket-for-enclosure",
           },
         ],
         faqs: [
@@ -1577,7 +1577,7 @@ const seoData = [
         keywords:
           "LED panel light, switchgear LED light, T5 fluorescent cabinet lamp, energy-saving LED, non-flicker LED, high brightness LED for panels",
         siteName: "Girish Ego Controls",
-        url: "https://yourwebsite.com/products/led-light-panelboard-switchgear",
+        url: "https://girishego.com/products/led-light-panelboard-switchgear",
         product: {
           name: "LED Light for Panelboard & Switchgear",
           description:
@@ -1588,11 +1588,11 @@ const seoData = [
           availability: "InStock",
         },
         breadcrumb: [
-          { name: "Home", url: "https://yourwebsite.com/" },
-          { name: "Products", url: "https://yourwebsite.com/products" },
+          { name: "Home", url: "https://girishego.com/" },
+          { name: "Products", url: "https://girishego.com/products" },
           {
             name: "LED Light for Panelboard & Switchgear",
-            url: "https://yourwebsite.com/products/led-light-panelboard-switchgear",
+            url: "https://girishego.com/products/led-light-panelboard-switchgear",
           },
         ],
         faqs: [
