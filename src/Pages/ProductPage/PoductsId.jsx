@@ -29,7 +29,7 @@ const PoductsId = () => {
         description="Discover industrial heaters, panel heaters, and thermostats by Girish Ego Controls for enclosure heating, climate control, and electrical panel safety."
         keywords="Industrial Heaters, Panel Heaters, Enclosure Heaters, Electrical Panel Heating, Industrial Heating Solutions, Thermostats for Electrical Panels, DIN Rail Thermostats, Stem Type Thermostats, Cabinet Heaters, Control Panel Heaters, Industrial Climate Control, HVAC Heaters, Electrical Enclosure Heating, Industrial Thermal Solutions"
         siteName="Girish Ego Controls"
-        url="https://yourwebsite.com/products"
+        url="https://girishego.com/products"
         image={productCat.subProducts[0]?.productImg}
         product={{
           name: "Industrial Heaters & Thermostats",
@@ -41,8 +41,8 @@ const PoductsId = () => {
           availability: "InStock",
         }}
         breadcrumb={[
-          { name: "Home", url: "https://yourwebsite.com/" },
-          { name: "Products", url: "https://yourwebsite.com/products" },
+          { name: "Home", url: "https://girishego.com/" },
+          { name: "Products", url: "https://girishego.com/products" },
         ]}
         faqs={[
           {

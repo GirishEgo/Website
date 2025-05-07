@@ -57,16 +57,16 @@ const PanelSpaceHeatersCalculator = () => {
         description="Use our Panel Space Heater Calculator to determine the ideal heater size for your enclosures. Ensure optimal temperature control and prevent condensation in industrial panels."
         keywords="Panel Space Heater Calculator, Enclosure Heater Sizing, Industrial Heater Calculator, Switchgear Heating, Condensation Prevention, Panel Heating Solutions, Industrial Heating Solutions, Electrical Panel Heaters"
         siteName="Girish Ego Controls"
-        url="https://yourwebsite.com/panel-space-heater-calculator"
+        url="https://girishego.com/panel-space-heater-calculator"
         breadcrumb={[
-          { name: "Home", url: "https://yourwebsite.com/" },
+          { name: "Home", url: "https://girishego.com/" },
           {
             name: "Resources",
-            url: "https://yourwebsite.com/Resources",
+            url: "https://girishego.com/Resources",
           },
           {
             name: "heat-calculator",
-            url: "https://yourwebsite.com/Resources/heat-calculator",
+            url: "https://girishego.com/Resources/heat-calculator",
           },
         ]}
       />

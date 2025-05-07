@@ -45,12 +45,12 @@ const ContactUs = () => {
         description="Reach out to Girish Ego Controls for high-quality enclosure heaters, panel heaters, industrial heating solutions, and thermostats. Contact us in Mumbai, India."
         keywords="Contact Girish Ego Controls, Enclosure Heaters Manufacturer, Panel Heater Supplier, Industrial Heating Solutions, Thermostats for Electrical Panels, Mumbai Heating Solutions, Buy Industrial Heaters, India, Dubai, Russia"
         siteName="Girish Ego Controls"
-        url="https://yourwebsite.com/contact-us"
+        url="https://girishego.com/Contact-us"
         locale="en_IN"
         organization="Girish Ego Controls"
         breadcrumb={[
-          { name: "Home", url: "https://yourwebsite.com/" },
-          { name: "Contact Us", url: "https://yourwebsite.com/contact-us" },
+          { name: "Home", url: "https://girishego.com/" },
+          { name: "Contact Us", url: "https://yourwebsite.com/Contact-us" },
         ]}
       />
 

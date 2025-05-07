@@ -24,13 +24,13 @@ const CatalogPage = () => {
         description="Download the Girish Ego Controls product catalogue to explore our range of enclosure heaters, panel heaters, industrial thermostats, and heating solutions."
         keywords="Download Product Catalogue, Industrial Heating Solutions Brochure, Enclosure Heater Catalogue, Panel Heater Brochure, Thermostat Product Guide, Electrical Panel Heating PDF, Industrial Heaters Specification"
         siteName="Girish Ego Controls"
-        url="http://localhost:5173/Resources/catalogue-download"
+        url="http://girishego.com/Resources/catalogue-download"
         breadcrumb={[
-          { name: "Home", url: "http://localhost:5173/" },
-          { name: "Resources", url: "http://localhost:5173/Resources" },
+          { name: "Home", url: "http://girishego.com/" },
+          { name: "Resources", url: "http://girishego.com/Resources" },
           {
             name: "Catalogue Download",
-            url: "http://localhost:5173/Resources/catalogue-download",
+            url: "http://girishego.com/Resources/catalogue-download",
           },
         ]}
       />

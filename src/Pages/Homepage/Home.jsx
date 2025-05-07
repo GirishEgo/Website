@@ -26,8 +26,8 @@ const Home = () => {
     DIN Rail-Mounted Thermostat for Enclosures, Industrial Automation Heating Solutions, Electric Panel Heating Solutions, 
     Anti-Condensation Heaters, HVAC Solutions for Electrical Enclosures, Industrial Temperature Control Devices"
         siteName="Girish Ego Controls"
-        image="https://yourwebsite.com/assets/homepage-banner.jpg"
-        url="https://yourwebsite.com/"
+        image="https://girishego.com/assets/homepage-banner.jpg"
+        url="https://girishego.com/"
         product={{
           name: "Girish Ego Controls - Enclosure & Panel Heating Solutions",
           description:
@@ -37,7 +37,7 @@ const Home = () => {
           currency: "INR",
           availability: "InStock",
         }}
-        breadcrumb={[{ name: "Home", url: "https://yourwebsite.com/" }]}
+        breadcrumb={[{ name: "Home", url: "https://girishego.com/" }]}
         faqs={[
           {
             question: "What products does Girish Ego Controls manufacture?",
