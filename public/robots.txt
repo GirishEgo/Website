@@ -1,0 +1,5 @@
+# Allow all bots to crawl everything
+User-agent: *
+Allow: /
+
+Sitemap: https://girishego.com/sitemap.xml
